@@ -10,7 +10,7 @@ const App = () => {
     <div>
         {/* Do not remove the main div */}
         <p>Enter your name:</p>
-        <input type="text" onChange = {()=>setName(e.target.value)} />
+        <input type="text" onChange = {(e)=>setName(e.target.value)} />
 
         {
           name &&
